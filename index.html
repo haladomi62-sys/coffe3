@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Velvet Coffee</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+<div class="logo">Velvet Coffee</div>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#coffee">Coffee</a></li>
+<li><a href="#cookies">Cookies</a></li>
+<li><a href="#about">About</a></li>
+</ul>
+
+</nav>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<div class="hero-content">
+
+<h1>Luxury Coffee Experience</h1>
+
+<p>Fresh Coffee & Warm Cookies Everyday</p>
+
+<button class="btn" id="menuBtn">Explore Menu</button>
+
+</div>
+
+</div>
+
+<!-- COFFEE -->
+
+<section id="coffee">
+
+<h2 class="section-title">Our Coffee</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=1200&auto=format&fit=crop">
+
+<div class="card-content">
+<h3>Espresso</h3>
+<p>Rich premium roasted coffee.</p>
+<div class="price">$2</div>
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1494314671902-399b18174975?q=80&w=1200&auto=format&fit=crop">
+
+<div class="card-content">
+<h3>Latte</h3>
+<p>Soft creamy milk coffee.</p>
+<div class="price">$3</div>
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1200&auto=format&fit=crop">
+
+<div class="card-content">
+<h3>Cappuccino</h3>
+<p>Classic italian taste.</p>
+<div class="price">$4</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- COOKIES -->
+
+<section id="cookies">
+
+<h2 class="section-title">Fresh Cookies</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=1200&auto=format&fit=crop">
+
+<div class="card-content">
+<h3>Chocolate Cookie</h3>
+<p>Warm melted chocolate cookie.</p>
+<div class="price">$2</div>
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=1200&auto=format&fit=crop">
+
+<div class="card-content">
+<h3>Oreo Cookie</h3>
+<p>Crunchy oreo flavor.</p>
+<div class="price">$1.75</div>
+</div>
+
+</div>
+
+<div class="card">
+
+<img src="Red-Velvet-Cake-Mix-Cookies-14.jpg">
+
+<div class="card-content">
+<h3>Red Velvet</h3>
+<p>Soft luxury cookie style.</p>
+<div class="price">$3</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<div class="about">
+
+<img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=1200&auto=format&fit=crop">
+
+<div class="about-text">
+
+<h2>About Our Cafe</h2>
+
+<p>
+We create a premium coffee experience with luxury desserts,
+fresh cookies, and relaxing atmosphere for coffee lovers.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+© 2026 Velvet Coffee | Premium Coffee Shop
+
+</footer>
+
+<!-- JAVASCRIPT -->
+<script>
+document.getElementById("menuBtn").addEventListener("click", function () {
+    document.getElementById("coffee").scrollIntoView({
+        behavior: "smooth"
+    });
+});
+</script>
+</body>
+</html>
